@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
+    background-image: url("images\\4aGiYw.webp");
+    background-size: cover;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color:green;
+}
+
+.navbar{
+    margin: 15px 0;
+}
+
+.welcome {
+    width: 25%;
+    height: 50vh;
+    background-color:rgba(228, 237, 100, 0.7);
+    padding: 40px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-radius: 5%;
+}
+
+.container a i {
+    margin: 0 10px;
+
+}
+
+table {
+    border: 1px solid grey;
+    margin: 10px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
+
+.gender{
+    width: 60px;
+}
+
+.follow {
+    margin: 5px;
+}
+
+.return{
+    position: relative;
+    top: 50px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.custom-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.custom-form .form-group {
+    margin-bottom: 20px;
+}
+
+.custom-form .error {
+    color: red;
+}
+
+.heading{
+    margin-top: 20px;
+    font-size: 36px; 
+    text-shadow: 1px 1px 3px rgba(117, 113, 113, 0.5);
+}
+
+footer {
+    background-color: rgba(129, 125, 125, 0.7);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(136, 134, 134, 0.062);
+    font-size: 17px;
+}
+
+footer i {
+    padding: 0 15px;
+    color: azure;
+}
+
+footer i:hover {
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.left {
+    float: left;
+    margin-left: 5%;
+}
+
+.right {
+    float: right;
+    margin-right: 5%;
+}
+
+.text-primary {
+    color: blue;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px white;
+}
+
+.text-pink {
+    color: purple;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px grey;
+    /* roze boja se nije videla nista zbog pozadine :-) */
+}
+
+.text-secondary {
+    color: brown;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px white;
+}
+
+.profile {
+    position: relative;
+    top: 100px;
+}
+
+.profile-table{
+    background-color: rgb(211, 211, 211, 0.8);
+    border: 2px solid black;
+}
+
+.profile-table td {
+    padding: 15px;
+}
+
+.msg {
+    font-size: 33px;
+    font-weight: bold;
+    color: #fffcfc;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+}
+
+.error_msg {
+        font-size: 33px;
+        font-weight: bold;
+        color: red;
+        text-shadow: 1px 1px 3px black;
+        text-align: center;
+    }
